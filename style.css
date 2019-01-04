@@ -167,14 +167,14 @@ body{
 
 /* Nav items*/
 #li:hover a {
-   background-color:#192A4A;
+   background-color:#273C66;
    color: white;
    
    transition: 0.15s;
 }
 
 .navbar-game-button:hover{
-	background-color: #192A4A;
+	background-color: #273C66;
 	color: white;
 	
 	
@@ -189,6 +189,16 @@ a{
 	color: black;
 	text-decoration: none;
 }
+
+
+/* Nav items*/
+.active {
+   background-color:#192A4A;
+   color: white;
+   
+   transition: 0.15s;
+}
+
 
 button > .icon-bar{
 	background-color: black;
@@ -279,8 +289,6 @@ button > .icon-bar{
 
 .feminazi-trigger-div{
 	margin-top: 10px;
-	
-	margin-bottom: 64px;
 
 }
 
@@ -322,7 +330,7 @@ button > .icon-bar{
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.hvr-buzz:active, .hvr-buzz:focus, .hvr-buzz:active {
+.hvr-buzz:hover{
   -webkit-animation-name: hvr-buzz;
   animation-name: hvr-buzz;
   -webkit-animation-duration: 0.1s;
@@ -333,4 +341,30 @@ button > .icon-bar{
   animation-iteration-count: infinite;
 }
 
+
+.game-logo{
+	width: 50%;
+	height: auto;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.game-description{
+	font-size: 24px;
+	color: white;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px #441449;
+}
+
+.carousel-image{
+	width: 100%;
+	height:auto;
+}
+
+.border-femi{
+	border: 2px solid #441449;
+	border-radius: 0px;
+}
 
