@@ -358,6 +358,29 @@ button > .icon-bar{
 	text-shadow: 2px 2px #441449;
 }
 
+.insult-button{
+	background-color: #E66A5D;
+	border:0;
+	padding:15px;
+	font-size: 24pt;
+	outline: none;
+	color: white;
+	text-shadow: 2px 2px #6F261E;
+	border: 2px solid #441449;
+	border-radius: 10px;
+	transition: 0.2s;
+	
+}
+
+.insult-button:hover{
+	background-color: #C05045;
+	transition: 0.2s;
+}
+.insult-button:active{
+	background-color: #E66A5D;
+	
+}
+
 .carousel-image{
 	width: 100%;
 	height:auto;
