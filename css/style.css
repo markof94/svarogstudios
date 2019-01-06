@@ -223,19 +223,19 @@ button > .icon-bar{
 }
 
 .fa-facebook{
-	background-image: url("facebook.png");
+	background-image: url("../facebook.png");
 }
 
 .fa-instagram{
-	background-image: url("instagram.png");
+	background-image: url("../instagram.png");
 }
 
 .fa-twitter{
-	background-image: url("twitter.png");
+	background-image: url("../twitter.png");
 }
 
 .fa-discord{
-	background-image: url("discord.png");
+	background-image: url("../discord.png");
 }
 
 .footer{
@@ -257,16 +257,17 @@ button > .icon-bar{
 	
 	
 	
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 	
 
 }
 
 .game-panel-image{
-	width: 90%;
+	width: 100%;
 	height: auto;
 
+	border-radius: 10px;
 }
 
 /* Grow Rotate */
@@ -355,7 +356,7 @@ button > .icon-bar{
 	font-size: 24px;
 	color: white;
 	margin-bottom: 30px;
-	text-shadow: 2px 2px #441449;
+	text-shadow: 2px 2px #292929;
 }
 
 .insult-button{
@@ -387,7 +388,15 @@ button > .icon-bar{
 }
 
 .border-femi{
-	border: 2px solid #441449;
-	border-radius: 0px;
+	border: 2px solid black;
+	border-radius: 4px;
 }
 
+
+.pcm-body{
+	background-color: #5D7BB5;
+}
+
+.germs-body{
+	background-color: #441449;
+}
