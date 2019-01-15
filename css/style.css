@@ -41,7 +41,7 @@
 
 
 .nav-logo{
-	width: 50px;
+	width: 35px;
 	height:auto;
 	
 	
@@ -399,4 +399,9 @@ button > .icon-bar{
 
 .germs-body{
 	background-color: #441449;
+}
+
+.freebie-body{
+	
+	background-color: #0D1629;
 }
